@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_resource"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.abraham24.nyobaaja.ResourceActivity"
+    android:background="#3edcdc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sumber Belajar Mikrotik"
+        android:textSize="32sp"
+       android:layout_gravity="center_horizontal"
+        android:id="@+id/textView4"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:textColor="#fafafa"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wiki.mikrotik.com"
+        android:id="@+id/textwikimikrotik"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        android:layout_gravity="left"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="75dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mikrotik.com"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+       android:layout_gravity="left"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textmikrotik" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mikrotik.co.id"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        android:id="@+id/textmikrotikid"
+       android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" mikrotikindo.blogspot.com"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textmikrotikindo"
+        android:layout_marginLeft="12dp"
+       />
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abraham24.nyobaaja.NetworkingQuiz.FirstPageQuiz">
+
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Petunjuk Quiz"
+           android:textSize="40dp"
+           android:fontFamily="casual"
+           android:layout_marginTop="35dp"
+           android:layout_centerHorizontal="true"
+           android:id="@+id/textpetunjuk"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Quiz ini berisi 10 soal tentang materi MTCNA."
+        android:layout_below="@+id/textpetunjuk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textpetunjuk1"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Soal berbentuk 4 pilihan ganda."
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/textpetunjuk1"
+        android:layout_alignLeft="@+id/textpetunjuk1"
+        android:layout_alignStart="@+id/textpetunjuk1"
+        android:id="@+id/textpetunjuk2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Anda tidak bisa kembali ke soal sebelumnya."
+        android:layout_below="@+id/textpetunjuk2"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/textpetunjuk2"
+        android:layout_alignStart="@+id/textpetunjuk2"
+        android:id="@+id/textpetunjuk3"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textpetunjuk3"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@+id/textpetunjuk3"
+        android:layout_alignLeft="@+id/textpetunjuk3"
+        android:id="@+id/textpetunjuk4"
+        android:text="4. Nilai jawaban yang benar per-soal adalah 5 point"
+        tools:layout_editor_absoluteY="200dp"
+        tools:layout_editor_absoluteX="48dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Selamat mengerjakan soal!."
+        android:textSize="15sp"
+        android:layout_below="@+id/textpetunjuk4"
+        android:layout_alignLeft="@+id/textpetunjuk4"
+        android:layout_alignStart="@+id/textpetunjuk4"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textpetunjuk5"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:id="@+id/buttonmulai"
+        android:text="Mulai Quiz!"
+        android:textIsSelectable="true"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="135dp" />
+</RelativeLayout>

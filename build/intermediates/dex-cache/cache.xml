@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\File Abe\File RPL\Backup Project\Android Studio\NyobaAja\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ea981518a6b9b3a878c68577eaea65734f549ed">
+        <dex dex="D:\File Abe\File RPL\Backup Project\Android Studio\NyobaAja\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6241cdcd61fd1b04c6da0f76b461bed130cbb145\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\File Abe\File RPL\Backup Project\Android Studio\NyobaAja\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\File Abe\File RPL\Backup Project\Android Studio\NyobaAja\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3e3d3cdc4cadf5e0743fb4e1aaab7ec01a6ac8f7\classes.dex" />
+    </item>
+
+</items>

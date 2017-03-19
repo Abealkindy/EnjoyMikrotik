@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abraham24.nyobaaja">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ico"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Intro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MenuUtama"
+            android:label="@string/title_activity_menu_utama"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ListLanjutan"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".DetailFromRecyclerView"
+            android:label="@string/title_activity_detail_from_recycler_view"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NetworkingQuiz.QuizActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NetworkingQuiz.QuizActivity2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NetworkingQuiz.QuizActivity3"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NetworkingQuiz.QuizActivity4"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NetworkingQuiz.QuizActivity5"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NetworkingQuiz.QuizActivity6"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NetworkingQuiz.QuizActivity7"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NetworkingQuiz.QuizActivity8"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NetworkingQuiz.QuizActivity9"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NetworkingQuiz.QuizActivity10"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NetworkingQuiz.QuizFinal"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ResourceActivity"
+            android:label="Resource"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NetworkingQuiz.FirstPageQuiz"
+            android:label="Networking Quiz"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz_final"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.abraham24.nyobaaja.NetworkingQuiz.QuizFinal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtsubmit"
+        android:textSize="50dp"
+        android:fontFamily="casual"
+        android:textColor="#05f579"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil Akhir :"
+        android:textSize="45dp"
+        android:id="@+id/texthasil"
+        android:layout_marginBottom="91dp"
+        android:layout_above="@+id/txtsubmit"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnulang"
+        android:text="Ulang lagi"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/txtsubmit"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/buttonbalik"
+        android:text="Balik kehalaman awal"
+        android:layout_below="@+id/btnulang"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
